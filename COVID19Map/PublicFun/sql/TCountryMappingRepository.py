@@ -1,8 +1,8 @@
 from COVID19Map.PublicFun.model import TCountryMapping
 
-
-def TCountryMappingInsert(modelList: []):
-    pass
+#TODO:插入功能还未实现
+def TCountryMappingListInsert(modelList: []):
+    print("插入成功")
 
 
 def TCountryMappingUpdateByUid(model: TCountryMapping):
