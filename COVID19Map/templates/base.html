@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    {% endblock %}
+
+    {% block head %}
+    {% endblock %}
+    <script src="{{ url_for("static",filename="BootStrap/bootstrap.min.js") }}"></script>
+    <script src="{{ url_for("static",filename="BootStrap/bootstrap.bundle.min.js") }}"></script>
+    <link rel="stylesheet" href="{{ url_for( "static",filename="BootStrap/bootstrap.min.css") }}"/>
+    <link rel="stylesheet" href="{{ url_for( "static",filename="BootStrap/bootstrap-grid.min.css") }}"/>
+    <link rel="stylesheet" href="{{ url_for( "static",filename="BootStrap/bootstrap-reboot.min.css") }}"/>
+</head>
+<body>
+{% block  navigation %}
+{% endblock %}
+
+{% block body %}
+{% endblock %}
+</body>
+</html>

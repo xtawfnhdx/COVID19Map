@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>AGE</th>
+    </tr>
+    {% for one in list%}
+    <tr>
+        <td>{{one[0]}}</td>
+        <td>{{one[1]}}</td>
+        <td>{{one[2]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
