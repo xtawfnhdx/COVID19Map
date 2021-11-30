@@ -132,3 +132,6 @@ dmypy.json
 .idea/.gitignore
 .idea/*.iml
 .idea/modules.xml
+.idea/deployment.xml
+.idea/sshConfigs.xml
+.idea/webServers.xml
