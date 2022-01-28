@@ -25,4 +25,7 @@ def Index():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    # app.run(host="0.0.0.0")c
+    s = [2, 3, 4, 5, 6, 7]
+    for x in range(len(s)):
+        print(x)
